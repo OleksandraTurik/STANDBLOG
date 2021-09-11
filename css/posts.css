@@ -1,0 +1,29 @@
+main .more span {
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main .more h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .more {
+    background: url('../img/heading-bg.jpg');
+    padding: 100px 100px;
+    margin: 0 15px 80px 15px;
+}
+
+main .moreInfo span {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main .moreInfo h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,302 @@
+
+
+header {
+    background-color: #f7f7f7;
+    padding: 25px 0px;
+}
+
+header .logo a {
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+}
+
+header .logo a:hover{
+    text-decoration: none;
+}
+
+header button.menu {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    vertical-align: middle; 
+}
+
+
+header nav ul li {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+header nav ul li:hover{
+    color: orange;
+}
+
+.creative .container {
+    background: url('../img/heading-bg.jpg');
+    padding: 20px 40px;
+    margin-bottom: 80px;
+}
+
+.creative .text span.orange {
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+
+.creative .text span.white {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.creative button {
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    float: right;
+}
+
+main .block .text span {
+    color: black;
+}
+main .list-images{
+    margin-bottom: 80px;
+}
+
+main .list-images .block {
+    
+    padding: 10px;
+   
+}
+
+main .list-images .block img {
+    width: 100%;
+}
+
+main .list-images .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+main .list-images .block {
+    position: relative;
+}
+
+main .list-images .block .text{
+    position: absolute;
+    bottom: 20px;
+    padding: 20px;
+}
+
+main .list-images .block .text span.orange{
+    display: block;
+    color: orange;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main .list-images .block .text span.want{
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main .article img{
+    width: 100%;
+}
+
+main .article span.categor{
+    display: block;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+main .article h2{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main .article span.description{
+    display: block;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+main .article .icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+main .article .icons span i{
+    margin-right: 5px;
+    color: orange;
+} 
+
+main .article .icons span{
+    color: grey;
+}
+
+main .article .group{
+    border: 1px solid #eee;
+    padding: 20px;
+}
+
+main .article{
+    margin-bottom: 25px;
+}
+
+main .view button{
+    color: white;
+    background-color: orange;
+    text-transform: uppercase;
+    border: 1px solid orange;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 80px;   
+}
+
+footer{
+    background-color:#20232e;
+}
+    
+footer .smm ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+footer .smm ul li{
+    margin: 0 20px;
+}
+
+footer hr {
+    background-color: #20232e;
+}
+
+footer .copywright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+footer .copywright span {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer .copywright span.orange {
+    color: orange;
+}
+
+main .search input {
+    width: 100%;
+    border: 1px solid #7a7a7a;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+}
+
+main .search input::placeholder {
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-size: 12px;
+    font-weight: bold;
+}
+  
+main .blog_name h4.generall {
+    color: #20232e;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+
+main .blog_name h4 {
+    color: #20232e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main .blog_name h4:hover {
+    color: orange;
+}
+
+main .blog_name span.data {
+    color: #aaa;
+    font-size: 14px;
+}
+
+main .categories ul {
+    list-style: none;
+    padding-bottom: 10px;
+    color: #20232e;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+main .categories ul li {
+    margin-bottom: 10px;
+}
+
+main .tag span.tag {
+    display: block;
+    color: #20232e;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+main .tag button {
+    color: #aaa;
+    text-transform: capitalize;
+    background-color: white;
+    border: 1px solid #aaa;
+    margin: 10px;
+    padding: 7px;
+}
+
+main .tag button:hover {
+    background-color: orange;
+    color: white;
+    border: orange;
+}
+
+
+@media (max-width: 600px) {
+    
+    header button.menu {
+        display: block;
+        color: white;
+        background-color: orange;
+        border: 1px solid orange;
+        padding: 10px 15px;
+    }
+    
+
+}
