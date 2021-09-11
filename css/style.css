@@ -1,8 +1,13 @@
-
-
 header {
     background-color: #f7f7f7;
     padding: 25px 0px;
+}
+
+header .flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header .logo a {
@@ -23,9 +28,10 @@ header nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    flex-wrap: wrap;
     vertical-align: middle; 
+    margin: 0;
 }
-
 
 header nav ul li {
     text-transform: uppercase;
@@ -33,7 +39,6 @@ header nav ul li {
     color: black;
     font-weight: bold;
     margin-left: 25px;
-    margin-top: 15px;
 }
 header nav ul li:hover{
     color: orange;
@@ -182,16 +187,18 @@ footer{
 footer .smm ul{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap ;
     color: white;
     font-weight: bold;
     list-style: none;
     margin-top: 35px;
     text-transform: uppercase;
     font-size: 13px;
+    padding: 0;
 }
 
 footer .smm ul li{
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 
 footer hr {
@@ -290,13 +297,7 @@ main .tag button:hover {
 
 @media (max-width: 600px) {
     
-    header button.menu {
-        display: block;
-        color: white;
-        background-color: orange;
-        border: 1px solid orange;
-        padding: 10px 15px;
-    }
+    
     
 
 }
